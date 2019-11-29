@@ -1,11 +1,7 @@
-﻿using swaggerAPIClone.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.IO;
 using System.Web;
-using System.Web.Script;
 using System.Web.Script.Serialization;
+using swaggerAPIClone.Models;
 
 namespace swaggerAPIClone.Controllers
 {
@@ -22,8 +18,8 @@ namespace swaggerAPIClone.Controllers
         private void setup()
         {
             // Read the JSON file
-            var JSONText = System.IO.File.ReadAllText(@"M:\DOCUMENT\programming\ricardo\swaggerAPIClone\testAPI\Models\data.json");
-            
+            var JSONText = File.ReadAllText(HttpContext.Current.Server.MapPath("~/App_Data/data2.json"));
+
             // Deserialize it and store
             this.data = new JavaScriptSerializer().Deserialize<Offenders[]>(JSONText);
         }

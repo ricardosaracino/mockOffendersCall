@@ -111,10 +111,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\data.json" />
+    <Content Include="App_Data\data2.json" />
     <Content Include="css\default.css" />
     <Content Include="packages.config" />
-    <Content Include="Models\data.json" />
-    <Content Include="Models\data2.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
