@@ -1,0 +1,56 @@
+[
+  {
+    "sentenceNumber": 1,
+    "statusIndian": false,
+    "access": "WRITE",
+    "oid": "U50A00092833",
+    "fpsNumber": "764528A",
+    "surname": "Goff",
+    "firstname": "Waters",
+    "sentenceId": "U50A00015358",
+    "birthdate": "1951-01-31T09:13:21",
+    "security": {
+      "code": 2,
+      "description": {
+        "en": "MINIMUM",
+        "fr": "MINIMALE"
+      }
+    },
+
+    "jurisdiction": {
+      "code": 1,
+      "description": {
+        "en": "FEDERAL",
+        "fr": "FÉDÉRALE"
+      }
+    },
+    "sex": {
+      "code": 1,
+      "description": {
+        "en": "MALE",
+        "fr": "HOMME"
+      }
+    },
+
+    "offenderPreferredLangCode": 1,
+    "unit": 3,
+    "subUnit": "F",
+    "cellNumber": 1,
+    "chosenName": " ",
+    "status": {
+      "code": 2,
+      "description": {
+        "en": "REVOKED",
+        "fr": "REVOQUÉE"
+      }
+    },
+
+    "facility": {
+      "code": 22000,
+      "description": {
+        "en": "DORCHESTER PENTITENTIARY",
+        "fr": "ETABL. DORCHESTER"
+      }
+    }
+  }
+]

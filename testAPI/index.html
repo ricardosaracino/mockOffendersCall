@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/default.css" />
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md text-left">
+                Name
+            </div>
+            <div class="col-md text-left">
+                Description
+            </div>
+        </div>
+
+        <!-- HR [ignore] -->
+        <div class="row">
+            <div class="col-md">
+                <hr />
+            </div>
+        </div>
+
+        <!-- PageNumber -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        PageNumber
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        integer($int32)
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="pageNumberInput" type="text" placeholder="PageNumber" class="form-control" aria-label="Page Number Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PageSize -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        PageSize
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        integer($int32)
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="pageSizeInput" type="text" placeholder="PageSize" class="form-control" aria-label="Page Size Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- fpsNumber -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        fpsNumber
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        string
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="fpsNumberInput" type="text" placeholder="fpsNumber" class="form-control" aria-label="FPS Number Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- oid -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        oid
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        string
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="oidInput" type="text" placeholder="oid" class="form-control" aria-label="OID Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- lastName -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        lastName
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        string
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="lastNameInput" type="text" placeholder="lastName" class="form-control" aria-label="Last Name Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- firstName -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        firstName
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        string
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="firstNameInput" type="text" placeholder="firstName" class="form-control" aria-label="First Name Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- facilityCode -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        facilityCode
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        string
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <input id="facilityCodeInput" type="text" placeholder="facilityCode" class="form-control" aria-label="Facility Code Input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- paging -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        paging
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        boolean
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <select id="pagingInput" aria-label="Paging Input Dropdown">
+                            <option value="true">true</option>
+                            <option value="false">false</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- active -->
+        <div class="row parameterElement">
+
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        active
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        boolean
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md">
+                        <select id="activeInput" aria-label="Active Input Dropdown">
+                            <option value="true">true</option>
+                            <option value="false">false</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="row">
+            <div class="col-md parameterElement">
+                <button onclick="run();">Execute</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our JQuery CDN (CDN just for testing, replace with framework later) -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+
+    <!-- Popper (For Bootstrap) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+
+        // When given the ID of an element, and the GETRequest, this method will append the value of the element to the GETRequest as long as it's not empty
+        function buildRequest(JQueryID, GETRequest) {
+            if ($("#" + JQueryID).val() == "") {
+                return GETRequest;
+            } else {
+                return GETRequest + "&" + JQueryID + "=" + $("#" + JQueryID).val();
+            }
+        }
+
+        function run() {
+
+            // List of all element IDs that could be added the GET request
+            var elementIDs = ["pageNumberInput", "pageSizeInput", "fpsNumberInput", "oidInput", "lastNameInput", "firstNameInput", "facilityCodeInput"];
+
+            // Initilize our GET variable
+            var GETRequest = "?pagingInput=" + $("#pagingInput").val() + "&activeInput=" + $("#activeInput").val();
+
+            // Loop through each possible element, buildRequest() will add the contents of that element to the GET request as long as it's not empty
+            elementIDs.forEach(elementID => {
+                GETRequest = buildRequest(elementID, GETRequest);
+            });
+
+            // Make the call
+            $.getJSON("api/Offenders" + GETRequest)
+
+            .done(function (data) {
+                console.log(data);
+            })
+
+            .fail(function (jqXHR, textStatus, err) {
+                console.log("ERROR: " + err);
+            });
+        }
+    </script>
+
+</body>
+</html>
